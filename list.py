@@ -8,4 +8,7 @@ for w in words:
 
 words = ['work', 'skin', 'food']
 for w in words:
-    print (w, len(w))
+    print (w, len(w)
+
+
+

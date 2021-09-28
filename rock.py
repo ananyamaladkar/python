@@ -17,7 +17,3 @@ elif p1 == "scissors":
         print("Scissors cuts paper! p1 win!")
     else:
         print("Rock smashes scissors! p2 wins")
-
-
-
-
