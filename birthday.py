@@ -15,6 +15,3 @@ data = {
 print('Welcome to the birthday dictionary. We know the birthdays of:albert,benjamin,frank')
 name = str(input('Who\'s birthday do you want to look up?'))
 birthday(name)
-
-
-
