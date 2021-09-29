@@ -6,7 +6,7 @@ class employee:
         self.empdept= empdept
 
     def display(self):
-       print(self.empname)
+       print(self.empid)
 
-e = employee ("427","ananya","5000", "hr")
+e = employee (427,"ananya",5000, "hr")
 e.display()
