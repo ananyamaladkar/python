@@ -1,0 +1,18 @@
+Class: Employee
+Attributes: Empid, Ename, salary, loc, jobtitle
+Functions:
+  	  add_details()
+	  display_details()
+	  get_empid()
+
+class:Timesheet
+Attributes:emp_id,no_of_hours,activity,status,description,date
+Functions:
+           getEmployeeDetails(empid)
+           createtimesheet()
+           updatetimesheet()
+           displaytimesheet()
+
+Class:Dept
+Attributes: deptno,deptname
+Functions: no_of_dept(),add_details_of_emp()
