@@ -1,13 +1,14 @@
 class timesheet:
-    def __init__ (self, date, noofhrs, activity, description, status):
+    def __init__(self, date, noofhours, activity, description, status):
         self.date = date
-        self.noofhrs = noofhrs
+        self.noofhours = noofhours
         self.activity = activity
         self.description = description
-        self.status= status
+        self.status = status
 
     def display(self):
-        print(self.noofhrs)
+            if self.noofhours >40:
+                raise Exception("value too large")
 
-t = timesheet("2/5/2021", "8hrs", "testing", "idk", "active")
+t = timesheet("2/5/2021",41, "testing", "idk", "active")
 t.display()
